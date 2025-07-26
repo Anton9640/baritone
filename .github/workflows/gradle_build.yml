@@ -4,8 +4,9 @@
 name: Java CI with Gradle
 
 on:
-  push:
-  pull_request:
+  workfloW_dispatch:
+    #inputs the workflow accepts
+    
 
 jobs:
   build:
